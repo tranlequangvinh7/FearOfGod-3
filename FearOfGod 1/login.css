@@ -1,0 +1,88 @@
+﻿body {
+    width: 100%;
+    height: 120vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+* {
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.login {
+    letter-spacing: 1.5px;
+    font-size: 18px;
+}
+
+.title {
+    padding-bottom: 20px;
+}
+
+.input-email {
+    padding-bottom: 20px;
+}
+
+#email, #pass {
+    font-size: 11px;
+    padding-left: 5px;
+}
+
+.sign-in {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.forgot-pass a {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.regis {
+    padding-top: 40px;
+}
+
+#btn {
+    width: 610px;
+    height: 40px;
+    background-color: white;
+    font-size: 10px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+    #btn:hover {
+        color: white;
+        background-color: black;
+        transition:0.8s;
+    }
+
+.input input {
+    width: 600px;
+    height: 40px;
+}
+
+.login-social {
+    padding-top: 40px;
+}
+
+#btn-social {
+    background-color: white;
+    cursor: pointer;
+    padding: 13px;
+    width: 610px;
+    background: linear-gradient(10deg, rgb(102, 63, 4) 0%, rgb(229, 144, 96) 100%);
+    background: -webkit-linear-gradient(10deg, rgb(102, 63, 4) 0%, rgb(229, 144, 96) 100%);
+}
+
+    #btn-social:hover {
+        color: white;
+        /* fallback for old browsers */
+        background: linear-gradient(157deg, rgb(168, 172, 222) 0%, rgb(238, 158, 78) 100%);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: -webkit-linear-gradient(157deg, rgb(168, 172, 222) 0%, rgb(238, 158, 78) 100%);
+        text-decoration: underline;
+    }
